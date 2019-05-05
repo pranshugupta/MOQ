@@ -4,4 +4,6 @@
 
 /packages
 /.vs/UnitTestingDemo/v16
-/*/obj/Debug
+/.vs/UnitTestingDemo/DesignTimeBuild
+/*/obj
+/*/bin
