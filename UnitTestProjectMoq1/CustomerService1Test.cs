@@ -77,7 +77,7 @@ namespace UnitTestProjectMoq1
             //Act
             customerService.CreateWithAddress(customerToCreate);
 
-            //Assert    It verifies all the things in arrange
+            //Assert 
             mockRepository.Verify(x => x.Save(It.IsAny<Customer>()));
         }
 

@@ -16,7 +16,7 @@ namespace UnitTestProject4
         // Set before each test is run, useful in data driver testing
         public TestContext TestContext { get; set; }
 
-        #region Tes Initialize and Cleaup
+        #region Test Initialize and Cleaup
         [TestInitialize]
         public void Test_Initialize()
         {

@@ -13,7 +13,6 @@ namespace UnitTestProject5
             Assert.IsTrue(result, "If Fail- you should see this message");
         }
 
-
         [TestMethod]
         public void FailWithMessageContained()
         {
@@ -37,6 +36,7 @@ namespace UnitTestProject5
             object obj2 = new object();
             Assert.AreNotSame(obj1, obj2);
         }
+
         [TestMethod]
         public void CheckObjectReference2()
         {

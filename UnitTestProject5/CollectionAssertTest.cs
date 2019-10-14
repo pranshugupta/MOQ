@@ -47,7 +47,6 @@ namespace UnitTestProject5
         [TestMethod]
         public void CheckInstance()
         {
-
             CollectionAssert.AllItemsAreInstancesOfType(Item.GetAllItems(), typeof(object));
         }
     }
